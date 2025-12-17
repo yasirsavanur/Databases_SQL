@@ -55,15 +55,14 @@ Exactly the same approach can be used for the other projects too (HR and Pet Sal
 
 ## Project 1 – Case Study: City of Chicago Data Portal
 
-Folder: [`Case Study: City of Chicago Data Portal`](Case%20Study%3A%20City%20of%20Chicago%20Data%20Portal)
+Folder: [`Case Study: City of Chicago Data Portal`](https://github.com/yasirsavanur/Databases_SQL/tree/main/Case%20Study%3A%20City%20of%20Chicago%20Data%20Portal)
 
 Main notebook:
 
-- [`Chicago Dataset.ipynb`](Case%20Study%3A%20City%20of%20Chicago%20Data%20Portal/Chicago%20Dataset.ipynb)
-
+- [`Chicago Dataset.ipynb`](https://github.com/yasirsavanur/Databases_SQL/blob/main/Case%20Study%3A%20City%20of%20Chicago%20Data%20Portal/Chicago_dataset.csv)
 Extra documentation:
 
-- [`README.md`](Case%20Study%3A%20City%20of%20Chicago%20Data%20Portal/README.md)
+- [`README.md`](https://github.com/yasirsavanur/Databases_SQL/blob/main/Case%20Study%3A%20City%20of%20Chicago%20Data%20Portal/README.md)
 
 ### Backstory
 
@@ -107,12 +106,12 @@ Each query was run from a Jupyter cell using `%%sql`, with the outputs rendered 
 
 ## Project 4 – Exploring Automotive Industry Trends in India
 
-Folder: [`Exploring Automotive Industry trends in India`](Exploring%20Automotive%20Industry%20trends%20in%20India)
+Folder: [`Exploring Automotive Industry trends in India`](https://github.com/yasirsavanur/Databases_SQL/tree/main/Exploring%20Indian%20Automotive%20Industry)
 
 Files:
 
-- [`Exploring Trends in the Automotive Industry.csv`](Exploring%20Automotive%20Industry%20trends%20in%20India/Exploring%20Trends%20in%20the%20Automotive%20Industry.csv)  
-- [`Exploring Trends in the AutomotiveIndustry.sql`](Exploring%20Automotive%20Industry%20trends%20in%20India/Exploring%20Trends%20in%20the%20AutomotiveIndustry.sql)
+- [`Exploring Trends in the Automotive Industry.csv`](https://github.com/yasirsavanur/Databases_SQL/blob/main/Exploring%20Indian%20Automotive%20Industry/Exploring%20Trends%20in%20the%20Automotive%20Industry.csv)
+- [`Exploring Trends in the AutomotiveIndustry.sql`](https://github.com/yasirsavanur/Databases_SQL/blob/main/Exploring%20Indian%20Automotive%20Industry/Exploring%20Trends%20in%20the%20AutomotiveIndustry.sql)
 
 ### Backstory
 
