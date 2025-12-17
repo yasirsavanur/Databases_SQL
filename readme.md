@@ -140,7 +140,7 @@ The idea here was to treat this as a **small analytical dataset** and write SQL 
 
 ### What the SQL script does
 
-The SQL file [`Exploring Trends in the AutomotiveIndustry.sql`](Exploring%20Automotive%20Industry%20trends%20in%20India/Exploring%20Trends%20in%20the%20AutomotiveIndustry.sql) connects to a database called `cars_info` and queries a table `car_info`.  
+The SQL file [`Exploring Trends in the AutomotiveIndustry.sql`](https://github.com/yasirsavanur/Databases_SQL/blob/main/Exploring%20Indian%20Automotive%20Industry/Exploring%20Trends%20in%20the%20AutomotiveIndustry.sql) connects to a database called `cars_info` and queries a table `car_info`.  
 The script walks through a series of numbered questions, for example:
 
 1. **Average selling price by fuel type**  
@@ -201,16 +201,16 @@ It’s essentially a compact case study of how to use SQL to explore pricing and
 
 ## Project 2 – Human Resources Database
 
-Folder: [`Human Resources Database`](Human%20Resources%20Database)
+Folder: [`Human Resources Database`](https://github.com/yasirsavanur/Databases_SQL/tree/main/Human%20Resources%20Database)
 
 SQL scripts:
 
 - **DDL (schema design)**  
-  - [`HR database-DDL.sql`](Human%20Resources%20Database/HR%20database-DDL.sql)
+  - [`HR database-DDL.sql`](https://github.com/yasirsavanur/Databases_SQL/blob/main/Human%20Resources%20Database/HR%20database-DDL.sql)
 - **Queries – Part 1**  
-  - [`HR database-Queries.sql`](Human%20Resources%20Database/HR%20database-Queries.sql)
+  - [`HR database-Queries.sql`](https://github.com/yasirsavanur/Databases_SQL/blob/main/Human%20Resources%20Database/HR%20database-Queries.sql)
 - **Queries – Part 2 (joins and more)**  
-  - [`HR database-Queries_2.sql`](Human%20Resources%20Database/HR%20database-Queries_2.sql)
+  - [`HR database-Queries_2.sql`](https://github.com/yasirsavanur/Databases_SQL/blob/main/Human%20Resources%20Database/HR%20database-Queries_2.sql)
 
 ### Backstory
 
@@ -242,7 +242,7 @@ This schema models:
 
 The two query scripts show how to ask common HR questions using SQL:
 
-From [`HR database-Queries.sql`](Human%20Resources%20Database/HR%20database-Queries.sql):
+From [`HR database-Queries.sql`](https://github.com/yasirsavanur/Databases_SQL/blob/main/Human%20Resources%20Database/HR%20database-Queries.sql):
 
 - Filter employees by **address**  
   - e.g. employees whose address contains `Elgin,IL`.  
@@ -255,7 +255,7 @@ From [`HR database-Queries.sql`](Human%20Resources%20Database/HR%20database-Quer
   - `AVG(SALARY)` (average salary)  
   and then use `HAVING` to keep only departments with fewer than 4 employees.
 
-From [`HR database-Queries_2.sql`](Human%20Resources%20Database/HR%20database-Queries_2.sql):
+From [`HR database-Queries_2.sql`](https://github.com/yasirsavanur/Databases_SQL/blob/main/Human%20Resources%20Database/HR%20database-Queries_2.sql)):
 
 - Use **INNER JOIN** between `EMPLOYEES` and `JOB_HISTORY` to list:
   - Employees in department 5 and their job start dates.  
@@ -283,13 +283,13 @@ It’s a good example of using pure SQL to answer practical questions about empl
 
 ## Project 3 – Pet Sale Database
 
-Folder: [`Pet Sale Database`](Pet%20Sale%20Database)
+Folder: [`Pet Sale Database`](https://github.com/yasirsavanur/Databases_SQL/tree/main/Pet%20Sale%20Database)
 
 SQL scripts:
 
-- [`DDL - Exercise.sql`](Pet%20Sale%20Database/DDL%20-%20Exercise.sql)  
-- [`PETSALE-CREATE.sql`](Pet%20Sale%20Database/PETSALE-CREATE.sql)  
-- [`PETSALE-FUNCTIONS.sql`](Pet%20Sale%20Database/PETSALE-FUNCTIONS.sql)
+- [`DDL - Exercise.sql`](https://github.com/yasirsavanur/Databases_SQL/blob/main/Pet%20Sale%20Database/DDL%20-%20Exercise.sql) 
+- [`PETSALE-CREATE.sql`](https://github.com/yasirsavanur/Databases_SQL/blob/main/Pet%20Sale%20Database/PETSALE-CREATE.sql)  
+- [`PETSALE-FUNCTIONS.sql`](https://github.com/yasirsavanur/Databases_SQL/blob/main/Pet%20Sale%20Database/PETSALE-FUNCTIONS.sql)
 
 ### Backstory
 
@@ -300,7 +300,7 @@ It’s intentionally small and simple so the focus stays on the SQL itself.
 
 ### Schema and sample data
 
-In [`PETSALE-CREATE.sql`](Pet%20Sale%20Database/PETSALE-CREATE.sql):
+In [`PETSALE-CREATE.sql`](https://github.com/yasirsavanur/Databases_SQL/blob/main/Pet%20Sale%20Database/PETSALE-CREATE.sql):
 
 - Drop the `PETSALE` table if it exists.  
 - Create a new `PETSALE` table with:
@@ -320,7 +320,7 @@ In [`PETSALE-CREATE.sql`](Pet%20Sale%20Database/PETSALE-CREATE.sql):
   - Various quantities and sale prices  
   - Sales across late May and June 2018  
 
-In [`DDL - Exercise.sql`](Pet%20Sale%20Database/DDL%20-%20Exercise.sql) there is also an extended exercise that:
+In [`DDL - Exercise.sql`](https://github.com/yasirsavanur/Databases_SQL/blob/main/Pet%20Sale%20Database/DDL%20-%20Exercise.sql) there is also an extended exercise that:
 
 - Creates a `PETSALE` table with both `SALEPRICE` and `PROFIT`, and  
 - A `PET` table with `ANIMAL` and `QUANTITY`,  
@@ -328,7 +328,7 @@ In [`DDL - Exercise.sql`](Pet%20Sale%20Database/DDL%20-%20Exercise.sql) there is
 
 ### Practising SQL functions
 
-[`PETSALE-FUNCTIONS.sql`](Pet%20Sale%20Database/PETSALE-FUNCTIONS.sql) runs a bunch of built‑in SQL functions against the `PETSALE` data:
+[`PETSALE-FUNCTIONS.sql`](https://github.com/yasirsavanur/Databases_SQL/blob/main/Pet%20Sale%20Database/PETSALE-FUNCTIONS.sql) runs a bunch of built‑in SQL functions against the `PETSALE` data:
 
 Numeric and aggregate functions:
 
